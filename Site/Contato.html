@@ -1,0 +1,134 @@
+<!DOCTYPE html5>
+<html lang="pt-BR">  <!--define a linguagem-->
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8"/> <!-- define a gramática -->
+		<link rel="stylesheet" type="text/css" href="formato.css" media="screen">
+		<link rel="icon" href="Imagens/icone.ico">
+		<title>Contato</title>
+		
+		
+	</head>
+	
+	
+	<body>
+	
+
+		<h1 id = "titulo">Dados do cliente</h1>			
+		<p id = "subtitulo">Insira seus dados</p>
+	
+		<img id = "teste" src="Imagens/cad.png">
+	
+
+		
+		<br/></br>
+			
+		<form action = "Cadastro.html" method = "post" enctype = "application/x-www-form-urlencoded" autocomplete = "on">
+		
+			<fieldset class = "grupo">
+			
+				<div class = "campo">
+					<label for = "nome">Nome</label>
+					<input type = "text" name = "nome" id = "nome" required = "required" />		
+					
+				</div></br>
+				
+				<div class = "campo1">
+					<label for = "genero"></label>
+					<input type = "radio" id = "genero" name = "opcao" value = "masc" />
+						<p>Masculino</p>
+					<input type = "radio" id = "genero" name = "opcao" value = "fem" />
+						<p>Feminino</p>
+				
+				</div>
+				
+			</fieldset>
+				
+				<div class = "campo">
+					<label for = "endereço">Endereço/Complemento</label>
+					<input type = "text" name = "endereço" id = "endereço" required = "required" />
+				
+				</div>
+		
+				<div class = "campo">	
+					<label for = "bairro">Bairro</label>
+					<input type = "text" name = "bairro" id = "bairro" required = "required" />
+				
+				</div>
+				
+			<fieldset class = "grupo">
+			
+				<div class = "campo">
+					<label for = "cidade">Cidade</label>            
+					<input type = "text" name = "cidade" required = "required" />
+					
+				</div>
+				
+				<div class = "campo">
+					<label for = "uf">UF</label>
+					<select name="uf" id = "uf">
+						<option selected="" value=""></option>
+						<option value="Acre">AC</option>
+						<option value="Alagoas">AL</option>
+						<option value="Amapá">AP</option>
+						<option value="Amazonas">AM</option>
+						<option value="Bahia">BA</option>
+						<option value="Ceará">CE</option>
+						<option value="Distrito Federal">DF</option>
+						<option value="Espírito Santo">ES</option>
+						<option value="Goiás">GO</option>
+						<option value="Maranhão">MA</option>
+						<option value="Mato Grosso">MT</option>
+						<option value="Mato Grosso do Sul">MS</option>
+						<option value="Minas Gerais">MG</option>
+						<option value="Pará">PA</option>
+						<option value="Paraíba">PB</option>
+						<option value="Paraná">PR</option>
+						<option value="Pernambuco">PE</option>
+						<option value="Piauí">PI</option>
+						<option value="Rio de Janeiro">RJ</option>
+						<option value="Rio Grande do Sul">RS</option>
+						<option value="Rio Grande do Norte">RN</option>
+						<option value="Rondônia">RO</option>
+						<option value="Roraima">RR</option>
+						<option value="Santa Catarina">SS</option>
+						<option value="São Paulo">SP</option>
+						<option value="Sergipe">SE</option>
+						<option value="Tocantins">TO</option>
+					</select><br/><br/>
+				</div>
+			</fieldset>
+				
+			<fieldset class = "grupo">
+			
+				<div class="campo">
+					<label for="Areas">Selecione as Áreas de Interesse</label>
+					
+					<select multiple class="form-control" id="Areas">
+						<option>Medicina</option>
+						<option>Educação</option>
+						<option>Arquitetura</option>
+						<option>Engenharia e prototipagem</option>
+						<option>Moda e estilo</</option>
+						<option>Aeroespacial e Geoespacial</option>
+						<option>Cosplay, Action Figures e entreterimento</option>
+					</select>
+				</div>
+					
+			</fieldset>
+				
+				<button class = "botao" type = "submit">Enviar</button>
+		
+		
+		
+		
+		
+
+	
+	</form>
+	
+	
+
+</html>

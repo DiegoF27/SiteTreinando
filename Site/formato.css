@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@400;700 & display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#titulo{
+	font-family: 'Noto Sans', sans-serif;
+	color: #7700ff;
+	margin-left: 3%;
+	margin-top: 5%;
+	display: flex;
+
+}
+
+#subtitulo{
+	font-family: 'Noto Sans', sans-serif;
+	color: #FFFFFF;
+	margin-left: 4%;
+	font-size: 0.7em;
+	display: flex;
+
+}
+
+
+img{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: auto;
+	right: 66%;
+}
+	
+
+#uf{
+	display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+
+body{
+
+	background-color: #201b2c;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1em;
+	/*color: black;*/
+	margin-left: 35%;
+	margin-top: 10%
+	justify-content: center;
+}
+
+.botao {
+    font-size: 1.1em;
+    background: purple;
+    border: 0;
+    margin-bottom: 2em;
+    color: white;
+    padding: 0.4em 1em;
+    box-shadow: 3px 6px 6px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #59429d;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo1 {
+    margin-bottom: 1em;
+	
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #7700ff;
+    display: block;
+}
+
+.campo1 label {
+    margin-bottom: 0.2em;
+    background-color: #FFFFFF;
+    display: block;
+
+}
+
+
+.campo input[type = "radio"] {
+    margin-bottom: 0.2em;
+    color: #59429d;
+}
+
+p{
+	color: #7700ff;
+	display: inline-block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],  .campo textarea {
+    padding: 0.4em;
+	width: 300px;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select{
+	padding: 0.4em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+
+.campo select option {
+    width: 250px;
+
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@400;700 & display=swap');
+
+#menu-hr{
+	background-color: #201b2c;
+	
+}
+
+#menu-hr ul{
+	max-width: 100%;	
+	list-style: none;
+	margin-top: 0.1%;
+	margin-left: 3%;
+	background-color: #201b2c;
+	font-family: "Noto Sans", sans-serif;
+
+}
+
+#menu-hr ul li{ 
+	display: inline;
+	padding-left: 20px;
+	
+}
+
+#menu-hr ul li a{
+	color: #FFF;
+	padding: 14px;
+	text-decoration: none;
+	display: inline-block;
+	transition: background .5s;
+}
+
+#menu-hr ul li a:hover {
+	background-color: #7700ff;
+}
+
+#menu-hr ul li:last-child a{
+	float: right;
+	background-color: #5000ac;
+}
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #201b2c;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+/*
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+*/
+
+/*Formatação imagem home page */
+.idm  ul{
+	background-color: #FFFFFF;
+	border-radius: 50px;
+	margin-left: 94%;
+	padding-right: 2%;
+	width: 0px;
+	height: 25px;
+	list-style: none;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.idm ul li a{
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	color: #7700ff;
+	justify-content: left;
+	align-items: center;
+	display: flex;
+}
+
+#corpo{
+	display: flex;
+	width: 97vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arte-home{
+	width: 48vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.arte-home img{
+	margin-top: 60%;
+	margin-left: -10%;
+	width:600px;
+	height:600px;
+}
+/*Formatação texto home page */
+.texto-home{
+	width: 40vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto-home p{
+	margin-left: -10%;
+	margin-top: 60%;
+	color: #FFF;	
+	font-size: 54px;
+	text-align: justify;
+}
+
+.vd-home p{
+	background: linear-gradient(to right, #7700ff, #FFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+	font-size: 38px;
+	font-weight: bold;
+	text-align: justify;
+	margin-left: 10%;
+	margin-top: 30%;
+}	
+
+.vd-home img{
+	margin-bottom: 1%;
+	margin-left: 36%;
+}
+
+footer {
+	height: 15vh;
+	width: 100%;
+	margin-top: 25%;
+	background-color: #7100bd;
+  }
+  
+#rodape{
+	position: relative;
+	bottom: -10%; 
+	transform: translateY(-50%);
+	display: inline-block;
+}
+
+#rodape > h5{
+		margin-left: 3%;
+}
+
+/*ENTRANDO NA PAGINA PRODUTOS*/
+.Prod{
+	width: 97vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.conteudo_1{ 
+	width: 20vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	margin-top: -20%;
+	margin-right: 3%;
+	background-color: transparent;
+
+}
+
+.conteudo_1 ul{
+	width: 20vw;	
+	list-style: none;
+	margin-right: 90%;
+	margin-top: 2%;
+
+}
+
+.conteudo_1 ul li a{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+
+}
+
+h4{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+	background-color: #7700ff;
+	text-align: center;
+}
+
+
+	
+}
+.products{
+	width: 65vw;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
+	text-align: justify;
+	margin-left: 10%;
+}
+
+.products > h3{
+	color: #FFFFFF;
+	font-size: 28px;
+	
+}
+
+.products figure figcaption{
+	color: #FFF;
+	font-size: 20px;
+}
+
+/*PAGINA ÁREAS*/
+#corpo_areas{
+	width: 97vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Menu-vt{
+	width: 15vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	margin-top: -20%;
+	margin-right: 7%;
+	background-color: black;
+	
+
+	
+}
+
+.Menu-vt ul{
+	max-width: auto;	
+	list-style: none;
+	margin-right: 90%;
+	margin-top: 20%;
+
+}
+.Menu-vt ul li a{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+
+}
+
+.Med-right{
+	width: 65vw;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	color: #ebf5eb;
+	text-align: justify;
+	margin-right: 5%;
+}
+
+.Medicina  h1{
+	font-weight: bold;	
+	color: #FFF;
+}
+
+.Medicina  h2{
+	font-weight: bold;	
+	color: #FFF;
+}
+
+.Medicina dl dt{
+	font-weight: bold;	
+	color: #FFF;
+}
+
+#anim > h3{
+	margin-left: 38%;
+}
+
+.anim_med {
+	width: 309px;
+	height: 249px;
+	background-color: transparent;
+	overflow: hidden;
+	margin-left: 30%;
+	
+
+	
+}
+
+.anim_med .ft_med {
+	width: 502%;
+	animation-name: animacao;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+.anim_med .ft_med  img{
+	width: 19.7%;
+}
+
+
+.Ed-right{
+	width: 65vw;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	color: #ebf5eb;
+	text-align: justify;
+	margin-right: 5%;
+}
+
+.Educ  h1{
+	font-weight: bold;	
+	color: #FFF;
+}
+
+.Educ  h2{
+	font-weight: bold;	
+	color: #FFF;
+}
+
+.Educ dl dt{
+	font-weight: bold;	
+	color: #FFF;
+}
+  
+/*Pagina QS */
+.qs{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+
+.qs > h2{
+	color: #FFF;
+	font-size: 34px;
+	margin-top: 50%;
+}
+
+.qs > p{
+	color: #FFF;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.qs img{
+	width:300px;
+	height:300px;
+}
+	
+	
+
+
+
+
+ 
